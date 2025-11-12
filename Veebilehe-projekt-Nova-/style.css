@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -42,3 +43,13 @@ body {
   color: black;
 }
 
+=======
+  background-color: #000;
+  background-image: radial-gradient(white 1px, transparent 1px),
+                    radial-gradient(white 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+>>>>>>> e98d4758c3634448a2460d94a3ba61754a808871
