@@ -7,3 +7,100 @@ body {
   color: white;
   font-family: Arial, sans-serif;
 }
+
+
+
+.link-boxes {
+  padding-left: 50px;
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 35px;
+  border: 2px solid rgb(45, 15, 66); 
+  background-color: rgb(42, 42, 78);
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.box:hover {
+  background-color: rgb(52, 51, 51);
+  color: black;
+}
+
+
+
+/*ASTRONOOMIA LEHE CSS*/
+
+.events-page {
+  background-image: url("taust.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 2rem;
+  justify-items: center;
+  align-items: start;
+}
+
+
+.event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.event-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+
+
+.event-text {
+  background-color: rgba(0, 0, 64, 0.5); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.event-text p {
+  font-size: 0.95rem;
+  color: #e0e0ff;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/*---------------------*/
