@@ -7,4 +7,4 @@ Mis on vaja teha?
 
 Mis on tegemisel?
 1. "Kalender" alamleht
-2. Sündmuste otsimine -> lähed linkide alla, kui leian
+2. Sündmuste otsimine "Kodu lähedal" jaoks -> lähed linkide alla, kui leian
