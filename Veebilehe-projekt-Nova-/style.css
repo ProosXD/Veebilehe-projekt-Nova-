@@ -1,3 +1,5 @@
+/*INDEX LEHE CSS*/
+
 body {
   margin: 0;
   padding: 0;
@@ -100,17 +102,17 @@ h1 {
   object-fit: cover;
   opacity: 1;
   transition: transform 0.3s, opacity 0.3s;
-  border: 2px solid rgba(44, 53, 107);
-  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
 }
 
 
 .event-text {
-  background-color: rgba(0, 0, 64, 0.5); 
-  border: 2px solid rgba(44, 53, 107);
+  background-color: rgba(10, 15, 60, 0.7); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1rem;
   width: 280px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .event-text p {
@@ -122,19 +124,54 @@ h1 {
 
 /*KALENDRI LEHE CSS*/
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  color: #ffffff
+}
+
+.months-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
 
 
-
-/*---------------------*/
-
-
-
-
-
-
-
+.month-block {
+  background: rgba(10, 15, 60, 0.7);
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 30, 0.8);
+}
 
 
+.month-block h2 {
+  margin-top: 0;
+  color: #ffffff;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 0.95em;
+}
 
 
 
@@ -177,7 +214,7 @@ h1 {
 }
 
 .event-link {
-  color: #c5d0ff;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -193,8 +230,8 @@ h1 {
   font-size: 0.95rem;
 }
 
-/*JavaScript CSS*/
 
+/*JavaScript CSS*/
 
 .fakti-nurk {
   position: fixed;
