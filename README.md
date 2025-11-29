@@ -5,3 +5,4 @@ Mis on vaja teha?
 
 Mis on tegemisel?
 1. "Täpsem info" alamleht
+2. Highlight esimesele ja neljandale alamlehele nagu "Üritused" all?
