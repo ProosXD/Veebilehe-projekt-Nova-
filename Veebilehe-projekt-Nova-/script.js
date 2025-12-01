@@ -13,7 +13,9 @@ function naitaFakti() {
     "Neptuun on Päikesesüsteemi kõige tuulisem planeet.",
     "Virmalised tekivad, kui Päikeseosakesed põrkuvad Maa atmosfääriga.",
     "Täiskuu on alati vastassuunas Päikesele.",
-    "Suurim teadaolev täht on UY Scuti, mis on üle 1700 korda suurem kui Päike."
+    "Suurim teadaolev täht on UY Scuti, mis on üle 1700 korda suurem kui Päike.",
+    "Sinine kuu on teine täiskuu ühes kalendrikuus, mis juhtub keskmiselt iga 2-3 aasta tagant!",
+    "Superkuu on nähtus, kui Kuu on täiskuu (või noorkuu) ajal oma orbiidil Maale kõige lähemal."
   ];
 
   // Valime juhusliku fakti
