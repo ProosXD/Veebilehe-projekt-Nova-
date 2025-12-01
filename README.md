@@ -3,6 +3,4 @@ Mis on vaja teha?
 2. Kas HTML ja CSS on errorite vabad (kasuta ise validaatorit: https://validator.w3.org/)?
 3. Kas lisame veel objekte nagu videod?
 
-Mis on tegemisel?
-1. "Täpsem info" alamleht
-2. Highlight esimesele ja neljandale alamlehele nagu "Üritused" all?
+
